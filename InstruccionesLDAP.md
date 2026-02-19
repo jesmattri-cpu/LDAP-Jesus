@@ -13,3 +13,55 @@
 
 <img width="1274" height="372" alt="imagen" src="https://github.com/user-attachments/assets/e10eb9de-d47d-43d7-92b7-61ce14db47df" />
 
+( Información: opciones que puedes poner en el comando para decidirque hace
+ldapdelete, s’utilitza per esborrar una o més entrades del directori.
+ldapmodrdn, serveix per modificar els RDN de les entrades.
+ldapsearch, s’utilitza per fer una cerca mitjançant els paràmetres especificats, possiblement és l’ordre més utilitzada.
+ldapcompare, fa una comparança mitjançant els paràmetres especificats.
+ldapmodify, serveix per modificar les entrades del directori.
+ldappasswd, és una eina que s’utilitza per establir la contrasenya d’un usuari LDAP.
+ldapwhoami, la funció és fer una operació whoami i determinar amb quin usuari heu fet un bind o login.
+ldapexop, permet executar operacions esteses, definides per una organització d’estandardització o un venedor de directori particular, per exemple PAM.
+ldapadd, s’usa per afegir entrades.)
+
+(Información:  opciones que puedes poner para determinar como el sitema te registra en nivel de usuario
+-D binddn. Determina el nom distintiu de l’usuari amb el qual us voleu connectar al servidor. El binddn es correspon amb la identificació única del node en què es troba l’usuari dins l’arbre LDAP.
+-W . Us pregunta per línia de comandes la paraula de pas. També es pot especificar mitjançant -w password. (Cal anar amb compte perquè d’aquesta manera la contrasenya aniria en text clar.)
+-H ldapurl. Especifica l’URL (s) de referència del servidor OpenLDAP (s) en què el client es vol autenticar. En la sintaxi només estan permesos els camps protocol / host / port i s’espera una o diversos URL, separades per espais en blanc o comes.
+h –ldaphost. Especifica el nom de màquina del servidor en comptes de l’URL de l’opció anterior.
+-x . Determina que s’utilitzarà l’autenticació simple en lloc de SASL.)
+
+5.- Para conectar el serviidor y los usuarios con autenticación simple pones este comando sudo ldapadd -x -H ldap://localhost -D "cn=admin,dc=midominio,dc=localhost" -W -f base.ldif
+
+<img width="911" height="141" alt="image" src="https://github.com/user-attachments/assets/2488f843-bca8-49bc-bab3-d0a525effef7" />
+
+6.- despues configuras el archivo group.ldif como este ejemplo
+
+<img width="615" height="343" alt="image" src="https://github.com/user-attachments/assets/3f51252f-006c-4637-ab60-dedc4e27d6b6" />
+
+7.-agrega el conteido del archivo a ldap
+
+<img width="770" height="144" alt="image" src="https://github.com/user-attachments/assets/8548b042-1845-4576-8b49-2178e16291c0" />
+
+8.-Ahora creamos un nuevo usuario al poner en el archivo usuaris.ldif
+
+R)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
