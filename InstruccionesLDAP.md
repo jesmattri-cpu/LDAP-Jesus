@@ -1,5 +1,10 @@
 1.- Primero aplica sudo apt update y upgrade a tu maquina virtual, si tiene conexión a internet
 
+
+1.2-Configura el archivo 00-installer-config.yaml
+<img width="670" height="407" alt="imagen" src="https://github.com/user-attachments/assets/28ee87b8-1c2d-4bb4-b15d-c0b46c7ebab3" />
+
+
 2.- Después, intsla ldap con el comando sudo apt install slapd ldap-utils
 
 <img width="1274" height="246" alt="imagen" src="https://github.com/user-attachments/assets/7aab3542-ef50-454c-993c-69417a052949" />
