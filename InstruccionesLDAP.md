@@ -50,7 +50,20 @@ h –ldaphost. Especifica el nom de màquina del servidor en comptes de l’URL 
 
 8.-Ahora creamos un nuevo usuario al poner en el archivo usuaris.ldif
 
-R)
+R)<img width="827" height="665" alt="imagen" src="https://github.com/user-attachments/assets/9f6c8ebe-d5fe-4904-bb2a-fca447cca584" />
+
+9.-ponemos una contraseña:
+ agregano al archivo usuaris.ldif-userPassword: contrasenya
+ <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/72b73acc-1b0d-4963-9f8d-e9bac20c0bf9" />
+
+ 10.- lo montamos en el ldap
+ con el comando sudo ldappasswd -S -W -D "cn=admin,dc=IOC-domini,dc=cat" -x "cn=Queralt Serra,cn=smx,ou=alumnat,dc=IOC-domini,dc=cat"
+ <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/00b17f3e-7e9a-40e0-bc61-cd1891fa8741" />
+
+ 
+
+
+
 
 
 
