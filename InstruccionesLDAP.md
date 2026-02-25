@@ -60,26 +60,32 @@ R)<img width="827" height="665" alt="imagen" src="https://github.com/user-attach
  con el comando sudo ldappasswd -S -W -D "cn=admin,dc=IOC-domini,dc=cat" -x "cn=Queralt Serra,cn=smx,ou=alumnat,dc=IOC-domini,dc=cat"
  <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/00b17f3e-7e9a-40e0-bc61-cd1891fa8741" />
 
+ para comprovaobar que todo esta ponemos: 
+ sudo ldapsearch -x -LLL ldap:/// -b dc=IOC-domini,dc=cat dn(para ver el arbol)
+<img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/9ece8bb7-b348-4a68-a45e-40daee6f0ab4" />
+
+
+ sudo ldapsearch -x -H ldap:/// -b ou=alumnat,dc=IOC-domini,dc=cat dn (para ver la OUs)
+ <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/3e85a76b-84e6-4d3d-9903-8250cb408587" />
+
+
+ sudo ldapsearch -x -H ldap:/// -b "cn=Queralt Serra,cn=smx,ou=alumnat,dc=IOC-domini,dc=cat" (para ver al usuario)
+ <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/9f58c62d-3fce-4ebf-b0ec-34f4d38f91ce" />
+
+ 11.-sudo apt install phpldapadmin ejecuta esto
+ <img width="843" height="668" alt="imagen" src="https://github.com/user-attachments/assets/23d88b7e-cac1-4b07-b7dc-cbe250344d4a" />
+
+ 12.-ahora tienen que editar el archivo:  /usr/share/phpldapadmin/config/config.php
+ cambiar estas entradas
+ $servers->setValue('server','name','Servidor LDAP del IOC');
+
+  $servers->setValue('server','base',array('dc=IOC-domini,dc=cat'));
+  
+ <img width="857" height="668" alt="imagen" src="https://github.com/user-attachments/assets/d971fd91-ece1-41d6-9524-32a869c1ebbf" />
+
+
+ $servers->setValue('login','bind_id','cn=admin,dc=IOC-domini,dc=cat');
+
+ <img width="857" height="668" alt="imagen" src="https://github.com/user-attachments/assets/fc65a91d-535a-4cd5-8244-a38b2a25235d" />
+
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
