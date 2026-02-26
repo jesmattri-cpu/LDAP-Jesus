@@ -36,11 +36,11 @@ ldapadd, s’usa per afegir entrades.)
 h –ldaphost. Especifica el nom de màquina del servidor en comptes de l’URL de l’opció anterior.
 -x . Determina que s’utilitzarà l’autenticació simple en lloc de SASL.)
 
-5.- Para conectar el serviidor y los usuarios con autenticación simple pones este comando sudo ldapadd -x -H ldap://localhost -D "cn=admin,dc=midominio,dc=localhost" -W -f base.ldif
+5.- Para conectar el serviidor y los usuarios con autenticación simple pones este comando sudo ldapadd -x -H ldap://localhost -D "cn=admin,dc=midominio,dc=localhost" -W -f grups.ldif
 
 <img width="911" height="141" alt="image" src="https://github.com/user-attachments/assets/2488f843-bca8-49bc-bab3-d0a525effef7" />
 
-6.- despues configuras el archivo group.ldif como este ejemplo
+6.- despues configuras el archivo groups.ldif como este ejemplo
 
 <img width="615" height="343" alt="image" src="https://github.com/user-attachments/assets/3f51252f-006c-4637-ab60-dedc4e27d6b6" />
 
