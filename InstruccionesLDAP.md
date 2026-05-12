@@ -88,4 +88,6 @@ R)<img width="827" height="665" alt="imagen" src="https://github.com/user-attach
 
  <img width="857" height="668" alt="imagen" src="https://github.com/user-attachments/assets/fc65a91d-535a-4cd5-8244-a38b2a25235d" />
 
+13.- ahora tenemos que navegar a este link desde un dispositivo que este conectado a este servidor, http://IP_del_servidor/phpldapadmin
+
  
