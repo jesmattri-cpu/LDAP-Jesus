@@ -86,8 +86,14 @@ R)<img width="827" height="665" alt="imagen" src="https://github.com/user-attach
 
  $servers->setValue('login','bind_id','cn=admin,dc=IOC-domini,dc=cat');
 
- <img width="857" height="668" alt="imagen" src="https://github.com/user-attachments/assets/fc65a91d-535a-4cd5-8244-a38b2a25235d" />
+<img width="884" height="678" alt="image" src="https://github.com/user-attachments/assets/067fb573-d5d7-4505-ae33-f5b12ca8aa85" />
+
 
 13.- ahora tenemos que navegar a este link desde un dispositivo que este conectado a este servidor, http://IP_del_servidor/phpldapadmin
+<img width="1363" height="828" alt="Captura de pantalla 2026-05-15 173118" src="https://github.com/user-attachments/assets/e7c6a4e1-8e0c-44db-891c-d85b6ee3834c" />
+<img width="1397" height="833" alt="Captura de pantalla 2026-05-15 173507" src="https://github.com/user-attachments/assets/11d1942a-e9f1-48ad-a389-3df15f2d5fa0" />
+
+Despues le das a conectar y te pondra en el administrador del servidor.
+
 
  
